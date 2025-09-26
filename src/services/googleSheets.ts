@@ -1,7 +1,7 @@
 // Servicio para integración con Google Sheets via Apps Script
 export class GoogleSheetsService {
   private static instance: GoogleSheetsService;
-  private scriptUrl: string = 'https://script.google.com/macros/s/AKfycbwxdHbFUVgWH5f8oMgtBc2cmGQanHYVNzPbG5x82xCgM28fQOCshMAXDidw0HzgA9o1_Q/exec';
+  private scriptUrl: string = '';
 
   private constructor() {}
 
