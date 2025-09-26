@@ -10,7 +10,7 @@ import { useAppContext } from '../../context/AppContext';
 export function Settings() {
   const { hideAmounts, toggleHideAmounts } = useAppContext();
   const [isConfigModalOpen, setIsConfigModalOpen] = useState(false);
-  const [scriptUrl, setScriptUrl] = useState('');
+  const [scriptUrl, setScriptUrl] = useState('https://script.google.com/macros/s/AKfycbwxdHbFUVgWH5f8oMgtBc2cmGQanHYVNzPbG5x82xCgM28fQOCshMAXDidw0HzgA9o1_Q/exec');
   const googleSheets = GoogleSheetsService.getInstance();
 
   const handleSaveConfig = () => {
