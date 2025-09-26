@@ -28,7 +28,7 @@ export function Sidebar({ activeTab, onTabChange }: SidebarProps) {
       <div className="p-6">
         <h1 className="text-2xl font-bold text-white mb-8 flex items-center gap-2">
           <CreditCard className="w-8 h-8 text-blue-400" />
-          FinanceApp
+          FinanApp
         </h1>
         
         <nav className="space-y-2">
